@@ -1,0 +1,53 @@
+{
+  "@@locale": "en",
+  "title": "Img Converter",
+  "settings": "Settings",
+  "select_photo": "Select Photo",
+  "@select_photo": {
+    "description": "Select photo"
+  },
+  "click_here_to_select_photo": "Click Here to select photo directly",
+  "@click_here_to_select_photo": {
+    "description": "Select photo"
+  },
+  "my_images": "My Images",
+  "@my_images": {},
+  "@title": {
+    "description": "Title of the app"
+  },
+  "@settings": {
+    "description": "Settings button label"
+  },
+  "no_ads": "No Ads",
+  "@no_ads": {
+    "description": "No Ads"
+  },
+  "sponsored": "Sponsored",
+  "@sponsored": {
+    "description": "Sponsored"
+  },
+  "jpg": "JPG",
+  "@jpg": {
+    "description": "JPG"
+  },
+  "png": "PNG",
+  "@png": {
+    "description": "PNG"
+  },
+  "pdf": "PDF",
+  "@pdf": {
+    "description": "PDF"
+  },
+  "gif": "GIF",
+  "@gif": {
+    "description": "GIF"
+  },
+  "bmp": "BMP",
+  "@bmp": {
+    "description": "BMP"
+  },
+  "webp": "WEBP",
+  "@webp": {
+    "description": "WEBP"
+  }
+}

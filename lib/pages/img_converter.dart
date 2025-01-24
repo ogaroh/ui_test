@@ -15,12 +15,6 @@ class _ImgConverterPageState extends State<ImgConverterPage> {
   late ScrollController _scrollController;
   double _scrollOffset = 0.0;
 
-  final BoxDecoration boxDecoration = BoxDecoration(
-    color: Colors.white.withOpacity(0.6),
-    borderRadius: BorderRadius.circular(5),
-    border: Border.all(color: Colors.blue, width: 0.5),
-  );
-
   // show scaffold snackbar
   showSnackbar(
     BuildContext context,
@@ -82,6 +76,14 @@ class _ImgConverterPageState extends State<ImgConverterPage> {
     final width = size.width;
     final cardWidth = width / 2.5;
     const cardHeight = 55;
+
+    BoxDecoration boxDecoration = BoxDecoration(
+      color: Colors.white.withOpacity(
+        _scrollOffset > 100 ? 1.0 : 0.6,
+      ),
+      borderRadius: BorderRadius.circular(5),
+      border: Border.all(color: Colors.blue, width: 0.5),
+    );
 
     return Scaffold(
       body: CustomScrollView(
